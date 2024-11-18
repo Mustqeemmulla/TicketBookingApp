@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket-Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans+TC:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="imgs/mustqeem (1).png" alt=""></a></div>
+    <div class="nav-links">
+        <a href="index.html"><i class="bi bi-airplane-fill"></i>Flights</a>
+        <a href="bus.html"><i class="bi bi-bus-front-fill"></i>Bus</a>
+        <a href="train.html"><i class="bi bi-train-front-fill"></i>Trains</a>
+        <a href="#"><i class="bi bi-briefcase-fill"></i>Manage Booking</a>
+    </div>
+    <div class="login-signup">
+        <a href="#"><i class="bi bi-person-circle"></i>LOGIN/SIGNUP</a>
+    </div>
+</nav>
+
+<div id="poster"><img src="imgs/train offer.jpg" alt="" style="width: 100%; height: 500px;"><marquee behavior="" direction="" scrollamount="12">Grab Crazy Deals in our <strong style="color: yellow;">FLASH SALE </strong> | 4PM Onwards | Grab Crazy Deals in our <strong style="color: yellow;">FLASH SALE </strong> | 4PM Onwards | Grab Crazy Deals in our <strong style="color: yellow;">FLASH SALE </strong> | 4PM Onwards |</marquee></div>
+
+
+<div id="head"><h2>Train Ticket Booking</h2></div>
+  
+  <section id="train-ticket">
+
+    <div  id="ticket-section">
+      <div class="section-1" id="radio-button">
+        <input type="radio" id="one-way" name="train-details" value="One-Way">Book Train tickets
+        <input type="radio" id="round-trip" name="train-details" value="Round-Trip">Check PNR Status
+        <input type="radio" id="multi-city" name="train-details" value="Multi-City">Live Trains Status
+      </div>
+
+      <div class="section-1" id="input-boxes">
+        <fieldset><legend >From</legend><input type="text" placeholder="Enter Source Name"></fieldset>
+        
+        <fieldset><legend >To</legend><input type="text"placeholder="Enter Destination Name"></fieldset>
+
+        <fieldset><legend >Departure</legend><input type="date"></fieldset>
+
+        <fieldset><legend >Tatkal Open</legend><input type="radio" placeholder="Today" name="tatkal">Today</fieldset>
+
+        <fieldset><legend >Tatkal Open</legend><input type="radio" placeholder="Today" name="tatkal">Tomorrow</fieldset>
+
+        <fieldset><legend >Tatkal Open</legend><input type="radio" placeholder="Today" name="tatkal">Day After Tomorrow</fieldset>
+
+      </div>
+
+
+      <div class="button-container"><button id="search" type="submit">SEARCH TRAINS</button></div>
+    </div>
+</section>
+
+<section>
+  <div id="section-4">
+      <img src="imgs/offer label.avif" alt="">
+  </div>
+</section>
+
+<section id="about">
+  <div id="ticket-section">
+  <h3 style="margin-bottom: 15px;margin-top: 15px;"><strong>About</strong></h3>
+
+  <p style="color: rgb(119, 119, 119);">
+    Launched in 2024, Mustqeem Mulla has developed a comprehensive ticket booking site using only HTML and CSS, catering to the growing need for efficient travel solutions. This platform allows users to conveniently book tickets for flights, buses, and trains, streamlining the process for travelers of all backgrounds. The site features a user-friendly interface with an intuitive layout, enabling seamless navigation between different transportation options. Users can easily search for and book flight tickets by entering departure and arrival locations, travel dates, and the number of passengers, making it simple to find suitable flights. Additionally, the site offers bus ticket reservations, allowing users to browse schedules, check availability, and make reservations effortlessly, catering to both local and long-distance travel needs. Recognizing the popularity of train travel, a dedicated section for train ticket bookings is also included, where users can search routes, view schedules, and secure their tickets online.
+  </p>
+  <br>
+  <p style="color: rgb(119, 119, 119);">
+    The design of the site is responsive, ensuring it performs well on various devices, including desktops, tablets, and smartphones, which is crucial in today’s mobile-first world. Built with HTML for structure and CSS for styling, the site benefits from clean, semantic markup essential for usability and search engine optimization (SEO). The CSS enhances visual appeal with carefully chosen color schemes, fonts, and layouts, contributing to a pleasant user experience. While currently static, the site has potential for future enhancements, such as integrating JavaScript for dynamic features or backend technologies for secure transactions. However, even in its existing form, it serves as a solid foundation for basic ticket booking needs.
+  </p>
+  <br>
+  <p style="color: rgb(119, 119, 119);">
+    Users benefit from the convenience of booking tickets from the comfort of their homes, saving valuable time and eliminating the need to visit multiple websites or physical locations. The site is designed to be accessible to all users, regardless of their technical skills, ensuring that everyone can take advantage of its features. In summary, Mustqeem Mulla's ticket booking site represents a significant step forward in simplifying the travel booking process. By focusing on user experience and providing essential features for flight, bus, and train reservations, the site stands out as a practical solution for modern travelers. As the platform continues to evolve, there is immense potential for further improvements and expansions, making it a promising tool in the travel industry.
+  </p>
+</div>
+</section>
+
+<footer>
+
+  <div id="footer-links">
+  <ul>
+    <p><b>OUR PRODUCTS</b></p>
+
+    <li><a href="index.html">Domestic Flights</a></li>
+    <li><a href="index.html">International Flights</a></li>
+    <li><a href="index.html">Multi-City Flights</a></li>
+    <li><a href="bus.html">Bus Booking</a></li>
+    <li><a href="train.html">Train Booking</a></li>
+    <li><a href="">Gift Cards</a></li>
+    <li><a href="">Gift</a></li>
+    <li><a href="">Trip Money</a></li>
+  </ul>
+
+  <ul>
+    <p><b>ABOUT US</b></p>
+
+    <li><a href="#about">About Us</a></li>
+    <li><a href="">Management</a></li>
+    <li><a href="">Terms of Services</a></li>
+    <li><a href="">User Agreement</a></li>
+    <li><a href="">Privacy</a></li>
+    <li><a href="">Careers</a></li>
+    <li><a href="">Customer Support</a></li>
+  </ul>
+  
+  <ul>
+    <p><b>TRAVEL ESSENTIAL</b></p>
+    <li><a href="https://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html?locale=en">PNR Status</a></li>
+    <li><a href="">Offers</a></li>
+    <li><a href="https://www.flightconnections.com/airlines">Airline Routes</a></li>
+    <li><a href="https://enquiry.indianrail.gov.in/mntes/">Train Running Status</a></li>
+  </ul>
+  
+  <ul>
+    <p><b>MORE LINKS</b></p>
+
+    <li><a href="">Cheap Flights</a></li>
+    <li><a href="">My Bookings</a></li>
+    <li><a href="">Cancellation</a></li>
+    <li><a href="">My Account</a></li>
+    <li><a href="">Wallet</a></li>
+  </ul>
+</div>
+<hr>
+
+<div class="footer-second">
+  <p id="f">Follow us on</p>
+  <a href="https://www.facebook.com/profile.php?id=100078745628698" class="i"><i class="bi bi-facebook"></i></a>
+  <a href="https://www.instagram.com/mustqeem.here/" class="i"><i class="bi bi-instagram"></i></a>
+  <a href="" class="i"><i class="bi bi-twitter-x"></i></a>
+
+  <p id="c">© 2024 Mustqeem Mulla (India) Private Limited. All rights reserved</p>
+</div>
+</footer>
+
+</body>
+</html>
